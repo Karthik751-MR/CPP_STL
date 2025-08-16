@@ -1,9 +1,4 @@
-
-| User Prompt: |
-|-------------|
-| I am Studying C++ STANDARD TEMPLATE LIBRARY AND your task is to give me the code for each container with all their functions and methods and everything about them along with what it does in the comment explaining clearly what it does in the comment // and i want you to include everything there is in vector set and other container dont leave anything start from array then pair then vector and so on |
-
-Of course\! I will provide you with a comprehensive guide to the C++ Standard Template Library (STL) containers. We'll go through them in a logical order, starting with the simpler ones and moving to the more complex ones.
+A comprehensive guide to the C++ Standard Template Library (STL) containers. We'll go through them in a logical order, starting with the simpler ones and moving to the more complex ones.
 
 Each section will include:
 
@@ -81,6 +76,9 @@ int main() {
     return 0;
 }
 ```
+
+
+
 
 -----
 
@@ -176,6 +174,8 @@ int main() {
     return 0;
 }
 ```
+
+
 
 -----
 
@@ -306,6 +306,9 @@ int main() {
 }
 ```
 
+
+
+
 -----
 
 ### 3\. `std::set`
@@ -414,16 +417,14 @@ int main() {
 }
 ```
 
+
+
+
 *Note on `std::multiset`*: It is almost identical to `std::set`, but it allows duplicate elements. The `.count(key)` method can return values greater than 1, and `.equal_range(key)` will give you the full range of all duplicate elements.\*
 
 -----
 
 This covers the first few and most fundamental containers. I will continue with `std::map`, `std::unordered_set`, `std::unordered_map`, other sequence containers (`deque`, `list`), and finally the container adapters in the next parts to avoid making a single response overwhelmingly long. Please let me know when you are ready for the next set of containers\!
-
-
-| User Prompt: |
-|-------------|
-| I am Studying C++ STANDARD TEMPLATE LIBRARY AND your task is to give me the code for each container with all their functions and methods and everything about them along with what it does in the comment explaining clearly what it does in the comment // and i want you to include everything there is in vector set and other container dont leave anything start from array then pair then vector and so on |
 
 ```cpp
 #include <iostream>
@@ -572,11 +573,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| I want you to tell me leach and every way to assign, access and all dont leave even a single thing i need everything lets start from array |
 
-Of course. I understand you want a completely exhaustive guide, covering every method, nuance, and way of interacting with each container. Let's start from the beginning with `std::array` and be extremely thorough.
 
 -----
 
@@ -783,6 +780,9 @@ int main() {
 }
 ```
 
+
+
+
 ### Summary of `std::array`
 
   * **When to use it:** Use `std::array` when you know the size of your collection at compile time and you do not need it to change. It is a direct, safe, and modern replacement for C-style arrays (`int arr[5];`). Examples: a 3D coordinate point (`std::array<float, 3>`), a fixed-size buffer, or a lookup table.
@@ -795,11 +795,6 @@ int main() {
       * Inflexible size. If you need a collection that can grow or shrink, you must use `std::vector` or another dynamic container.
 
 This covers every aspect of creating, assigning, accessing, and using `std::array`. Are you ready for the deep dive into `std::pair` and `std::tuple`?
-
-
-| User Prompt: |
-|-------------|
-| Yes |
 
 ```cpp
 #include <iostream>
@@ -992,9 +987,6 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Yes next |
 
 ```cpp
 #include <iostream>
@@ -1225,9 +1217,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Continue |
+
 
 ```cpp
 #include <iostream>
@@ -1385,9 +1375,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Continue |
+
 
 ```cpp
 #include <iostream>
@@ -1525,9 +1513,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Continue |
+
 
 ```cpp
 #include <iostream>
@@ -1674,9 +1660,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Continue |
+
 
 ```cpp
 #include <iostream>
@@ -1837,9 +1821,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| Continue |
+
 
 ```cpp
 #include <iostream>
@@ -1961,9 +1943,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2134,9 +2114,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2256,9 +2234,7 @@ Actions for user1 collected into a vector: ";
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2393,9 +2369,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2496,9 +2470,7 @@ Iterating through all instances of \"apple\":
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2643,9 +2615,7 @@ Erased \"orange\". Count: " << num_erased << std::endl;
 ```
 
 
-| User Prompt: |
-|-------------|
-| continue |
+
 
 ```cpp
 #include <iostream>
@@ -2837,9 +2807,7 @@ int main() {
 ```
 
 
-| User Prompt: |
-|-------------|
-| bitset |
+
 
 ```cpp
 #include <iostream>
