@@ -1,4 +1,4 @@
-A comprehensive guide to the C++ Standard Template Library (STL) containers. We'll go through them in a logical order, starting with the simpler ones and moving to the more complex ones.
+A comprehensive guide to the C++ Standard Template Library (STL) containers. We'll go through them in a logical order, starting with the simpler ones and moving to the more complex ones!
 
 Each section will include:
 
